@@ -29,6 +29,4 @@ die("connection failed: ". pg_last_error());
     echo "Connected successfully";
  }
 pg_close($conn);
-
-
 ?>
